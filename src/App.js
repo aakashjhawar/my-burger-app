@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Layout>
+        <p>Hello</p>
+      </Layout>
     </div>
   );
 }
